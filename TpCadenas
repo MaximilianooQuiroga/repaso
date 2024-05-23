@@ -1,0 +1,159 @@
+Trabajo Practico de cadenas
+
+Hasta ahora hemos dicho que las cadenas sirven para guardar texto en
+variables. Cualquier
+Una cosa que escribamos entre comillas es una cadena. Algo que no dijimos
+es que las cadenas están
+hechas de piezas más pequeñas: los caracteres. Un carácter es simplemente
+una letra o símbolo.
+
+2.1. Longitud
+La función len devuelve la cantidad de caracteres de una cadena. Por
+ejemplo:
+fruta = "banana"
+longitud = len(fruta)
+print(longitud)
+Esto muestra un 6.
+2.2. Recorrido
+Algo común para hacer con una cadena es comenzar desde el principio,
+seleccionar cada
+carácter por vez, hacer algo con él, y continuar hasta el n. Este patrón de
+procesamiento se
+llama recorrido. Una forma natural de codificar un recorrido es mediante una
+sentencia for:
+for char in fruta:
+print(char)
+Este ciclo recorre la cadena e imprime cada letra en líneas separadas. Cada
+vez que recorremos
+el ciclo, se asigna a la variable char el siguiente caracter de la cadena. El
+bucle continúa hasta
+que no quedan más caracteres.
+Como ejercicio, escribí un programa que tome una cadena como parámetro y
+que imprima
+solo las consonantes de la cadena, en líneas separadas.
+
+Ejercicio 24 ⋆
+a) Escribir un programa que pida al usuario un número n y muestre una línea
+de n
+
+asteriscos. Ejemplo, para n = 8, el programa deberá mostrar:
+********
+b) Escribir un programa que pida al usuario un número n y muestre n líneas
+de
+1, 2, 3, ...n asteriscos respectivamente. Ejemplo, para n = 5, el programa
+deberá
+mostrar:
+*
+**
+***
+****
+*****
+c) Escribir un programa que pida al usuario un número n y muestre n líneas
+de 2n − 1
+asteriscos respectivamente. Ejemplo, para n = 5, el programa deberá mostrar:
+*
+***
+*****
+*******
+*********
+Ejercicio 25 ⋆
+a) Sabiendo que la pantalla de la consola tiene 80 caracteres de ancho, hacer
+un programa que, dada una palabra, la escriba en el centro de la pantalla.
+b) Hacer una programa que, dada una palabra, la escriba pegada a la
+derecha de la
+pantalla.
+Ejercicio 26 ⋆
+Hacer una programa que, dada una palabra, la escriba recuadrada por
+asteriscos. Por ejemplo,
+si la palabra es "Ganaste", el programa debería escribir:
+***********
+* Ganaste *
+***********
+Ejercicio 27
+Hacer un programa que dada una palabra y una letra, imprima la cantidad de
+apariciones de
+esa letra.
+Ejercicio 28
+
+Escribir un programa que pida al usuario una cadena e indique si esta posee
+un diptongo (dos
+vocales unidas).
+Ejercicio 29
+Escribir un programa que pida al usuario una cadena y una letra y reemplace
+las apariciones
+de dicha letra por asteriscos. Por ejemplo, si el usuario ingresa:
+"programador"
+"r"
+el programa debe devolver "p ∗ og ∗ amado∗"
+Ejercicio 30
+Hacer un programa que genere una clave provisoria para la gestión online de
+clientes de una
+empresa. El programa le pedirá el apellido y generará una clave de 5
+caracteres, tomará las
+primeras 4 consonantes de la palabra ingresada. Cuando las consonantes no
+alcancen a 4, las
+faltantes las reemplazará por "*". Ejemplos:
+clemente CLMN
+rivera RVR*
+oreo R***
+La clave se completará con 1 dígito generado aleatoriamente entre 0 y 9.
+Ejemplos: CLMN1 RVR*4 R***7
+Ejercicio 31
+Hacer un programa que solicite dos cadenas, nombre y apellido y arme el
+legajo de estudiantes
+de la universidad de la siguiente manera:
+Los 3 primeros números del legajo coinciden con los primeros del dni luego
+"_", luego las 3
+primeras letras del apellido y por último la primera y última del nombre.
+Por ejemplo:
+Javier Rodriguez 38946702
+Legajo: 389_rodjr
+
+A)
+
+1-
+
+
+
+
+
+
+
+
+2-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3-
+
+
+B)
+1-
+
+2-
+
+
+C)
+1-
+
+D)
+1-
+
