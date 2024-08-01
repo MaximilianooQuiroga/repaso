@@ -1,6 +1,0 @@
-Git commit se utilliza para agregar un nombre descriptivo a la carpeta o archivo que subiremos 
-La rama nos indica el lugar donde subiremos el archivo o carpeta y se pone "origin main" para idicar el destino 
-Git hub sirve para subir archivos o carpetas de una computadora para poder abrirlos desde cualquier otra iniciando sesion 
-en git hub y login en la terminal
-Utilizamos git remote add origin con el link del repositorio al que lo subiremos para indicar que debe subirse a ese repositorio
-
