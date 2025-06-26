@@ -1,0 +1,18 @@
+1_ El git remote add origin sirve para agregar un URL de un repositorio remoto. Al no agregar un repositorio, al momento
+de pushear los archivos, los archivos se mandaran a otro URL previamente colocado.
+O los archivos no se mandaran debido a no tener un destino colocado. EJ: git remote add origin "URL"
+
+2_ Mientras que git push y git add son parte de los 3 pasos de guardado, estos 2 tienen diferencias en lo que hacen.
+GIT ADD = Sirve para agregar a los archivos en el staging area 
+GIT PUSH = Sirve para enviar todos los archivo agregados en el staging area  hacia un repositorio remoto con un link
+
+3_Los 3 colores de estado de guardado son:
+ROJO: Marca que los archivos no estan agregados al staging area
+VERDE: Marca que los archivos SI estan agregados al staging area
+GRIS: Marca los archivos que estan commiteados./ Muestra el mensaje del commit.
+
+4_ La unica similitud de rmdir y rmdir -r es que ambos sirven para eliminar carpetas, aunque uno hace mas que el otro.
+RMDIR = Borra una o mas carpetas que NO TENGAN contenido dentro (carpetas vacias)
+RMDIR -R = Borra una o mas carpetas completas, incluyendo los contenidos que llevan dentro.
+
+5_Con el comando de cd .. para retroceder en la ruta.
