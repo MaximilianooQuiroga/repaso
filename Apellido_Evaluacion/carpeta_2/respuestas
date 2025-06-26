@@ -1,0 +1,8 @@
+a) Para indicar la ruta en la que nos encontramos.
+b) El mkdir crea carpetas mientras que el touch crea archivos
+c) Para poder enviar nuestra carpeta/archivo al github (donde haremos los procesos de "¿Quien lo enviará?", "¿A donde lo enviará?" y "¿Qué enviará?", y en github  podremos trabajar con otras personas.
+d) Un commit es un comando del git de la parte "¿Qué enviará?" donde escribiremos un mensaje a la carpeta/archivo que se enviará al github. Donde al entrar a la carpeta/archivo del github tendremos un mensaje (el que escribimos).
+e) Para añadir un origen. Si no lo utilizamos, la carpeta/archivo se enviará a otro origen o en el caso de que borramos el origen viejo y no usamos el add origin,la carpeta/archivo no se enviará a ningun lado porque no estamos diciendo a donde queremos enviarlo.
+f) Para que se escriba automaticamente el nombre de la carpeta creada, archivo creado o escritorio (mientras se escriban sus primeras 2 letras). Así nos ahorramos en escribir.
+
+
